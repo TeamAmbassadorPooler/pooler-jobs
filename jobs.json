@@ -1,23 +1,22 @@
 {
   "company": "Ambassador Personnel",
-  "updated": "2026-10-13T16:39:18.692Z",
-  "applyUrl": "https://www.teamambassador.com/Jobs.aspx?q=all",
+  "updated": "2026-10-13T18:48:46.074Z",
+  "applyUrl": "https://www.teamambassador.com/Login.aspx?ref=/Application.aspx?id=000054VZ",
   "jobs": [
     {
       "code": "5SX7",
       "title": "Cook",
       "city": "Savannah",
       "state": "GA",
-      "zip": "31409",
+      "zip": "31309",
       "pay": [
-        15,
         19
       ],
       "shift": "Mon-Fri 6am-2pm",
-      "type": "Temporary",
+      "type": "Temp-to-hire",
       "openings": 2,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SX7.html",
-      "applyUrl": "https://www.teamambassador.com/Jobs.aspx?q=all",
+      "applyUrl": "https://www.teamambassador.com/Login.aspx?ref=/Application.aspx?id=000054VZ",
       "datePosted": "2026-10-13"
     },
     {
@@ -25,16 +24,15 @@
       "title": "Cook 2nd Shift",
       "city": "Savannah",
       "state": "GA",
-      "zip": "31409",
+      "zip": "31309",
       "pay": [
-        15,
         19
       ],
       "shift": "Mon-Fri 12pm-8pm",
       "type": "Temporary",
       "openings": 2,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SX8.html",
-      "applyUrl": "https://www.teamambassador.com/Jobs.aspx?q=all",
+      "applyUrl": "https://www.teamambassador.com/Login.aspx?ref=/Application.aspx?id=000054VZ",
       "datePosted": "2026-10-13"
     },
     {
@@ -46,11 +44,11 @@
       "pay": [
         60
       ],
-      "shift": "Mon-Fri 8am - 5pm",
+      "shift": "Mon-Fri 8am-5pm",
       "type": "Temporary",
       "openings": 1,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SFT.html",
-      "applyUrl": "https://www.teamambassador.com/Jobs.aspx?q=all",
+      "applyUrl": "https://www.teamambassador.com/Login.aspx?ref=/Application.aspx?id=000054VZ",
       "datePosted": "2026-10-13"
     }
   ]
