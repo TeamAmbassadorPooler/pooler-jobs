@@ -1,6 +1,6 @@
 {
   "company": "Ambassador Personnel",
-  "updated": "2026-10-13T14:46:58.394Z",
+  "updated": "2026-10-13T14:55:13.547Z",
   "applyUrl": "https://www.teamambassador.com/Jobs.aspx?q=all",
   "jobs": [
     {
@@ -8,7 +8,7 @@
       "title": "Cook",
       "city": "Savannah",
       "state": "GA",
-      "zip": "",
+      "zip": "31422",
       "pay": [
         15,
         19
@@ -25,7 +25,7 @@
       "title": "Cook 2nd Shift",
       "city": "Savannah",
       "state": "GA",
-      "zip": "",
+      "zip": "31422",
       "pay": [
         15,
         19
@@ -42,7 +42,7 @@
       "title": "Project Engineer lll",
       "city": "Savannah",
       "state": "GA",
-      "zip": "",
+      "zip": "31322",
       "pay": [
         60
       ],
