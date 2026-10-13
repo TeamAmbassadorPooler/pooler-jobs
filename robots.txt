@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://teamambassadorpooler.github.io/pooler-jobs/sitemap.xml
