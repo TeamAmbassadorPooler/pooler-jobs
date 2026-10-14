@@ -1,6 +1,6 @@
 {
   "company": "Ambassador Personnel",
-  "updated": "2026-10-13T18:48:46.074Z",
+  "updated": "2026-10-14T14:50:59.883Z",
   "applyUrl": "https://www.teamambassador.com/Login.aspx?ref=/Application.aspx?id=000054VZ",
   "jobs": [
     {
@@ -36,6 +36,22 @@
       "datePosted": "2026-10-13"
     },
     {
+      "code": "5SX3",
+      "title": "Human Resource Specialist I",
+      "city": "Little Rock",
+      "state": "AR",
+      "zip": "72209",
+      "pay": [
+        28
+      ],
+      "shift": "Shift: Monday - Friday 8 AM to 5 PM",
+      "type": "Temporary",
+      "openings": 1,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SX3.html",
+      "applyUrl": "https://www.teamambassador.com/Login.aspx?ref=/Application.aspx?id=000054VZ",
+      "datePosted": "2026-10-14"
+    },
+    {
       "code": "5SFT",
       "title": "Project Engineer lll",
       "city": "Savannah",
@@ -50,6 +66,22 @@
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SFT.html",
       "applyUrl": "https://www.teamambassador.com/Login.aspx?ref=/Application.aspx?id=000054VZ",
       "datePosted": "2026-10-13"
+    },
+    {
+      "code": "5SYC",
+      "title": "Storeroom Attendant Integrated Supply",
+      "city": "Manchester",
+      "state": "TN",
+      "zip": "37355",
+      "pay": [
+        15
+      ],
+      "shift": "Mon-Fri 7am-3pm",
+      "type": "Temporary",
+      "openings": 1,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SYC.html",
+      "applyUrl": "https://www.teamambassador.com/Login.aspx?ref=/Application.aspx?id=000054VZ",
+      "datePosted": "2026-10-14"
     }
   ]
 }
