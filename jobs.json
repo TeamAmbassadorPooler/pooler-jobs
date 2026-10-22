@@ -1,6 +1,6 @@
 {
   "company": "Ambassador Personnel",
-  "updated": "2026-10-22T17:43:35.077Z",
+  "updated": "2026-10-22T19:12:06.475Z",
   "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
   "jobs": [
     {
@@ -600,6 +600,22 @@
       "type": "Temporary",
       "openings": 1,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SS0.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
+      "datePosted": "2026-10-22"
+    },
+    {
+      "code": "5SDX",
+      "title": "HRIS Analyst V",
+      "city": "Remote",
+      "state": "GA",
+      "zip": "31312",
+      "pay": [
+        47.75
+      ],
+      "shift": "Full-time; shift and hours confirmed when you apply",
+      "type": "Temporary",
+      "openings": 1,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SDX.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
     },
