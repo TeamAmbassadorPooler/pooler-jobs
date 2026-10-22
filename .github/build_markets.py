@@ -321,6 +321,12 @@ def main():
     apply_url = data.get("applyUrl") or "https://www.teamambassador.com/Jobs.aspx"
     updated = (data.get("updated") or "")[:10]
 
+    # Pages for jobs no longer in the feed (closed or switched off) don't get published
+    codes = {j["code"] for j in jobs}
+    for p in (site / "jobs").glob("*.html"):
+        if p.stem not in codes:
+            p.unlink()
+
     # Branch phone numbers and ZIP fixes
     log = assign_branches(jobs, ZipBook())
     for j in jobs:
