@@ -1,6 +1,6 @@
 {
   "company": "Ambassador Personnel",
-  "updated": "2026-10-22T16:40:12.000Z",
+  "updated": "2026-10-22T17:43:35.077Z",
   "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
   "jobs": [
     {
@@ -138,7 +138,7 @@
       ],
       "shift": "Full-time; shift and hours confirmed when you apply",
       "type": "Temporary",
-      "openings": 27,
+      "openings": 20,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SS1.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
@@ -198,7 +198,7 @@
       ],
       "shift": "Full-time; shift and hours confirmed when you apply",
       "type": "Temporary",
-      "openings": 11,
+      "openings": 18,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SBL.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
@@ -246,7 +246,7 @@
       ],
       "shift": "Full-time; shift and hours confirmed when you apply",
       "type": "Temporary",
-      "openings": 3,
+      "openings": 2,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5JH1.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
@@ -278,7 +278,7 @@
       ],
       "shift": "Full-time; shift and hours confirmed when you apply",
       "type": "Temporary",
-      "openings": 1,
+      "openings": 5,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SZX.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
@@ -620,6 +620,38 @@
       "datePosted": "2026-10-22"
     },
     {
+      "code": "5SX7",
+      "title": "Cook",
+      "city": "Savannah",
+      "state": "GA",
+      "zip": "31419",
+      "pay": [
+        19
+      ],
+      "shift": "Full-time, 1st shift (days) — hours confirmed when you apply",
+      "type": "Temporary",
+      "openings": 0,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SX7.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
+      "datePosted": "2026-10-22"
+    },
+    {
+      "code": "5SYZ",
+      "title": "Cook",
+      "city": "Savannah",
+      "state": "GA",
+      "zip": "31404",
+      "pay": [
+        19
+      ],
+      "shift": "Full-time, 1st shift (days) — hours confirmed when you apply",
+      "type": "Temporary",
+      "openings": 0,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SYZ.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
+      "datePosted": "2026-10-22"
+    },
+    {
       "code": "5SZ0",
       "title": "Cook",
       "city": "Savannah",
@@ -630,8 +662,24 @@
       ],
       "shift": "Full-time, 2nd shift — hours confirmed when you apply",
       "type": "Temporary",
-      "openings": 2,
+      "openings": 4,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SZ0.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
+      "datePosted": "2026-10-22"
+    },
+    {
+      "code": "5SX8",
+      "title": "Cook 2nd Shift",
+      "city": "Savannah",
+      "state": "GA",
+      "zip": "31419",
+      "pay": [
+        19
+      ],
+      "shift": "Full-time, 2nd shift — hours confirmed when you apply",
+      "type": "Temporary",
+      "openings": 0,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SX8.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
     },
@@ -1226,6 +1274,22 @@
       "datePosted": "2026-10-22"
     },
     {
+      "code": "5SHQ",
+      "title": "Material Handler",
+      "city": "Macon",
+      "state": "GA",
+      "zip": "31217",
+      "pay": [
+        20
+      ],
+      "shift": "Full-time; shift and hours confirmed when you apply",
+      "type": "Temporary",
+      "openings": 0,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SHQ.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
+      "datePosted": "2026-10-22"
+    },
+    {
       "code": "5SX0",
       "title": "Receiving Clerk",
       "city": "Macon",
@@ -1236,6 +1300,22 @@
       "type": "Temporary",
       "openings": 1,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SX0.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
+      "datePosted": "2026-10-22"
+    },
+    {
+      "code": "5SH5",
+      "title": "Shipping Clerk",
+      "city": "Macon",
+      "state": "GA",
+      "zip": "31217",
+      "pay": [
+        20
+      ],
+      "shift": "Full-time; shift and hours confirmed when you apply",
+      "type": "Temporary",
+      "openings": 0,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SH5.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
     },
@@ -1446,6 +1526,22 @@
       "datePosted": "2026-10-22"
     },
     {
+      "code": "51WX",
+      "title": "Production Helper - Bread - All Shifts",
+      "city": "Batesville",
+      "state": "AR",
+      "zip": "72501",
+      "pay": [
+        18
+      ],
+      "shift": "Full-time; 1st, 2nd and 3rd shifts available — hours confirmed when you apply",
+      "type": "Temporary",
+      "openings": 0,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/51WX.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
+      "datePosted": "2026-10-22"
+    },
+    {
       "code": "55TT",
       "title": "Production Helper - Bun - All Shifts",
       "city": "Batesville",
@@ -1456,7 +1552,7 @@
       ],
       "shift": "Full-time; 1st, 2nd and 3rd shifts available — hours confirmed when you apply",
       "type": "Temporary",
-      "openings": 1,
+      "openings": 0,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/55TT.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
@@ -1562,8 +1658,24 @@
       ],
       "shift": "Full-time; shift and hours confirmed when you apply",
       "type": "Temporary",
-      "openings": 1,
+      "openings": 0,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/4XL5.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
+      "datePosted": "2026-10-22"
+    },
+    {
+      "code": "4TVF",
+      "title": "Retail Sales Clerk",
+      "city": "Pensacola",
+      "state": "FL",
+      "zip": "32514",
+      "pay": [
+        15.51
+      ],
+      "shift": "Full-time; shift and hours confirmed when you apply",
+      "type": "Temporary",
+      "openings": 0,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/4TVF.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
     },
@@ -2522,7 +2634,7 @@
       ],
       "shift": "Full-time, 1st shift (days) — hours confirmed when you apply",
       "type": "Temporary",
-      "openings": 1,
+      "openings": 10,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5T05.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
@@ -2538,7 +2650,7 @@
       ],
       "shift": "Full-time, 2nd shift — hours confirmed when you apply",
       "type": "Temporary",
-      "openings": 1,
+      "openings": 10,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5T06.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
@@ -2570,7 +2682,7 @@
       ],
       "shift": "Full-time; shift and hours confirmed when you apply",
       "type": "Temporary",
-      "openings": 1,
+      "openings": 2,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5T08.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
@@ -3006,6 +3118,22 @@
       "datePosted": "2026-10-22"
     },
     {
+      "code": "5QR2",
+      "title": "Machine Operator",
+      "city": "Alma",
+      "state": "GA",
+      "zip": "31510",
+      "pay": [
+        17
+      ],
+      "shift": "Full-time, 1st shift (days) — hours confirmed when you apply",
+      "type": "Temporary",
+      "openings": 0,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5QR2.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
+      "datePosted": "2026-10-22"
+    },
+    {
       "code": "5J23",
       "title": "Welder/fitter - NC Asheville",
       "city": "Hendersonville",
@@ -3080,7 +3208,7 @@
       ],
       "shift": "Full-time; shift and hours confirmed when you apply",
       "type": "Temporary",
-      "openings": 2,
+      "openings": 3,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5QZH.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
@@ -3270,6 +3398,22 @@
       "datePosted": "2026-10-22"
     },
     {
+      "code": "5S4J",
+      "title": "Assembler",
+      "city": "Charlotte",
+      "state": "NC",
+      "zip": "28214",
+      "pay": [
+        18.6
+      ],
+      "shift": "Full-time; shift and hours confirmed when you apply",
+      "type": "Temporary",
+      "openings": 0,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5S4J.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
+      "datePosted": "2026-10-22"
+    },
+    {
       "code": "5S4H",
       "title": "Warehouse Associate",
       "city": "Charlotte",
@@ -3330,38 +3474,6 @@
       "type": "Temporary",
       "openings": 2,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5RT1.html",
-      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
-      "datePosted": "2026-10-22"
-    },
-    {
-      "code": "76KH-598",
-      "title": "Registered Nurse - Medical/Surgical - 1st",
-      "city": "Guyton",
-      "state": "GA",
-      "zip": "31312",
-      "pay": [
-        26
-      ],
-      "shift": "Full-time, 1st shift (days) — hours confirmed when you apply",
-      "type": "Temporary",
-      "openings": 1,
-      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/76KH-598.html",
-      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
-      "datePosted": "2026-10-22"
-    },
-    {
-      "code": "7727-599",
-      "title": "Insurance Broker",
-      "city": "Savannah",
-      "state": "GA",
-      "zip": "31401",
-      "pay": [
-        20
-      ],
-      "shift": "Full-time; shift and hours confirmed when you apply",
-      "type": "Temporary",
-      "openings": 1,
-      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/7727-599.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
     },
@@ -3510,6 +3622,38 @@
       "datePosted": "2026-10-22"
     },
     {
+      "code": "5T03",
+      "title": "Production Operator",
+      "city": "Arkadelphia",
+      "state": "AR",
+      "zip": "71923",
+      "pay": [
+        21.47
+      ],
+      "shift": "Shift: 12 hour shifts; 3-4 days a week. Rotating day schedule.  •\t2 each day shift workers. 5 AM to 5 PM. •\t2 each night shift workers. 5 PM to 5 AM.",
+      "type": "Temporary",
+      "openings": 2,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5T03.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
+      "datePosted": "2026-10-22"
+    },
+    {
+      "code": "5T04",
+      "title": "Production Operator",
+      "city": "Arkadelphia",
+      "state": "AR",
+      "zip": "71913",
+      "pay": [
+        21.47
+      ],
+      "shift": "Shift: 12 hour shifts; 3-4 days a week. Rotating day schedule.; 2 each day shift workers. 5 AM to 5 PM.; 2 each night shift workers. 5 PM to 5 AM.",
+      "type": "Temporary",
+      "openings": 2,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5T04.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
+      "datePosted": "2026-10-22"
+    },
+    {
       "code": "5SZ8",
       "title": "Forklift Operator",
       "city": "Tuscaloosa",
@@ -3552,7 +3696,7 @@
       ],
       "shift": "Full-time; shift and hours confirmed when you apply",
       "type": "Temporary",
-      "openings": 1,
+      "openings": 2,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5QZX.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
@@ -3776,7 +3920,7 @@
       ],
       "shift": "Full-time; 1st, 2nd and 3rd shifts available — hours confirmed when you apply",
       "type": "Temp-to-hire",
-      "openings": 3,
+      "openings": 2,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/4Y4W.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
@@ -3988,6 +4132,38 @@
       "datePosted": "2026-10-22"
     },
     {
+      "code": "5SYC",
+      "title": "Storeroom Attendant Integrated Supply",
+      "city": "Manchester",
+      "state": "TN",
+      "zip": "37355",
+      "pay": [
+        15
+      ],
+      "shift": "Full-time, Monday–Friday, 2pm-10pm",
+      "type": "Temporary",
+      "openings": 1,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SYC.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
+      "datePosted": "2026-10-22"
+    },
+    {
+      "code": "5SV0",
+      "title": "Storeroom Attendant",
+      "city": "North Charleston",
+      "state": "SC",
+      "zip": "29405",
+      "pay": [
+        23
+      ],
+      "shift": "Full-time; shift and hours confirmed when you apply",
+      "type": "Temporary",
+      "openings": 1,
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SV0.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
+      "datePosted": "2026-10-22"
+    },
+    {
       "code": "5SZY",
       "title": "Forklift Operator",
       "city": "Suwanee",
@@ -3998,7 +4174,7 @@
       ],
       "shift": "Full-time; shift and hours confirmed when you apply",
       "type": "Temporary",
-      "openings": 1,
+      "openings": 2,
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SZY.html",
       "applyUrl": "https://www.teamambassador.com/Jobs.aspx",
       "datePosted": "2026-10-22"
