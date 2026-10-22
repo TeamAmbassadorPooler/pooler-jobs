@@ -165,12 +165,169 @@ def sitemap(jobs, by_state, updated):
             + "\n".join(rows) + "\n</urlset>\n")
 
 
+# ---------------------------------------------------------------------------
+# Branch callback numbers: each job gets the phone of its closest branch.
+# Source: teamambassador.com/Our-Locations.aspx. Edit this list if a branch
+# opens, closes or changes its number.
+BRANCHES = [
+    ("Birmingham", "35209", "(205) 640-7480"),
+    ("Enterprise", "36330", "(334) 347-3496"),
+    ("Montgomery", "36109", "(334) 271-1666"),
+    ("Tuscaloosa", "35404", "(205) 758-5508"),
+    ("Valley", "36854", "(706) 634-9075"),
+    ("Batesville", "72501", "(870) 698-9400"),
+    ("Bainbridge", "39819", "(229) 246-2297"),
+    ("Cordele", "31015", "(229) 273-2999"),
+    ("Douglas", "31533", "(912) 493-9327"),
+    ("Douglasville", "30135", "(770) 942-0311"),
+    ("Macon", "31210", "(478) 474-8600"),
+    ("Pooler", "31322", "(912) 330-7210"),
+    ("Suwanee", "30024", "(678) 765-8198"),
+    ("Thomasville", "31792", "(229) 226-0647"),
+    ("Tifton", "31794", "(229) 387-8055"),
+    ("Valdosta", "31602", "(229) 253-1184"),
+    ("Charlotte", "28217", "(704) 522-1188"),
+    ("Clinton", "28328", "(910) 592-1904"),
+    ("Gaffney", "29341", "(864) 488-0047"),
+    ("Spartanburg", "29301", "(864) 574-0427"),
+]
+DESK_PHONE = "(912) 330-7210"  # the number Ambassador Desk writes on every job
+MAX_MILES = 150  # farther than this from every branch: no phone, apply online only
+
+
+def _city_key(city):
+    return "".join(ch for ch in str(city).lower() if ch.isalnum())
+
+
+class ZipBook:
+    """ZIP code lookups from the offline `zipcodes` package (USPS data)."""
+
+    def __init__(self):
+        import zipcodes  # installed by the workflow: pip install zipcodes
+        self.by_zip, self.by_city = {}, defaultdict(list)
+        for z in zipcodes.list_all():
+            if not z.get("lat") or not z.get("long"):
+                continue
+            rec = (z["zip_code"], z["state"], float(z["lat"]), float(z["long"]), z.get("zip_code_type"))
+            self.by_zip[z["zip_code"]] = rec
+            for c in [z["city"]] + list(z.get("acceptable_cities") or []):
+                self.by_city[(_city_key(c), z["state"])].append(rec)
+
+    def city_zip(self, city, state):
+        recs = self.by_city.get((_city_key(city), state), [])
+        std = [r for r in recs if r[4] == "STANDARD"] or recs
+        return min(std) if std else None  # lowest standard ZIP = main post office area
+
+    def locate(self, job):
+        """Return (zip, lat, lon, how). Keeps a valid in-state ZIP, else fills from the city."""
+        state = str(job.get("state", "")).strip().upper()
+        z = str(job.get("zip") or "").strip()[:5]
+        rec = self.by_zip.get(z)
+        if rec and rec[1] == state:
+            return rec[0], rec[2], rec[3], "kept"
+        found = self.city_zip(job.get("city", ""), state)
+        if found:
+            return found[0], found[2], found[3], ("filled" if not z else "corrected")
+        return (z or None), None, None, "unresolved"
+
+
+def _miles(a, b, c, d):
+    from math import radians, sin, cos, asin, sqrt
+    a, b, c, d = map(radians, (a, b, c, d))
+    h = sin((c - a) / 2) ** 2 + cos(a) * cos(c) * sin((d - b) / 2) ** 2
+    return 3958.8 * 2 * asin(sqrt(h))
+
+
+def assign_branches(jobs, book):
+    branches = []
+    for name, z, phone in BRANCHES:
+        rec = book.by_zip[z]
+        branches.append((name, phone, rec[2], rec[3]))
+    log = defaultdict(int)
+    for j in jobs:
+        zip_, lat, lon, how = book.locate(j)
+        log[how] += 1
+        if how in ("filled", "corrected"):
+            j["zip"] = zip_
+        if lat is None:
+            j["branch"], j["branchPhone"] = None, None
+            log["no branch nearby"] += 1
+            continue
+        dist, name, phone = min((_miles(lat, lon, b[2], b[3]), b[0], b[1]) for b in branches)
+        if dist > MAX_MILES:
+            j["branch"], j["branchPhone"] = None, None
+            log["no branch nearby"] += 1
+        else:
+            j["branch"], j["branchPhone"] = name, phone
+    return dict(log)
+
+
+def how_to_apply(job):
+    if job.get("branchPhone"):
+        return f"Apply online or call our {job['branch']} office at {job['branchPhone']}"
+    return "Apply online and a recruiter will contact you"
+
+
+def patch_job_page(path, job):
+    if not path.exists():
+        return
+    page = path.read_text(encoding="utf-8")
+    page = page.replace(f"Apply online or call {DESK_PHONE}", how_to_apply(job))
+    # Google job markup: add or fix the postal code
+    if job.get("zip"):
+        pc = f'"postalCode": "{job["zip"]}"'
+        i = page.find('"postalCode": "')
+        if i != -1:
+            k = page.index('"', i + len('"postalCode": "'))
+            page = page[:i] + pc + page[k + 1:]
+        else:
+            page = page.replace('"addressRegion": ', pc + ',\n      "addressRegion": ', 1)
+    path.write_text(page, encoding="utf-8")
+
+
+def patch_feed(path, jobs_by_code):
+    """Same phone and ZIP fixes in jobs.xml, the feed job boards read."""
+    if not path.exists():
+        return
+    xml = path.read_text(encoding="utf-8")
+    out, pos = [], 0
+    while True:
+        a = xml.find("<job>", pos)
+        if a == -1:
+            out.append(xml[pos:])
+            break
+        b = xml.index("</job>", a) + len("</job>")
+        block = xml[a:b]
+        r = block.find("<referencenumber><![CDATA[")
+        code = block[r + 26:block.index("]]>", r)] if r != -1 else ""
+        j = jobs_by_code.get(code)
+        if j:
+            block = block.replace(f"Apply online or call {DESK_PHONE}", how_to_apply(j))
+            if j.get("zip"):
+                p = block.find("<postalcode><![CDATA[")
+                if p != -1:
+                    q = block.index("]]>", p)
+                    block = block[:p + 21] + j["zip"] + block[q:]
+        out.append(xml[pos:a] + block)
+        pos = b
+    path.write_text("".join(out), encoding="utf-8")
+# ---------------------------------------------------------------------------
+
+
 def main():
     site = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
     data = json.loads((site / "jobs.json").read_text(encoding="utf-8"))
     jobs = [j for j in data.get("jobs", []) if j.get("code") and j.get("state")]
     apply_url = data.get("applyUrl") or "https://www.teamambassador.com/Jobs.aspx"
     updated = (data.get("updated") or "")[:10]
+
+    # Branch phone numbers and ZIP fixes
+    log = assign_branches(jobs, ZipBook())
+    for j in jobs:
+        patch_job_page(site / "jobs" / f"{j['code']}.html", j)
+    patch_feed(site / "jobs.xml", {j["code"]: j for j in jobs})
+    (site / "jobs.json").write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("ZIPs:", log)
 
     by_state = defaultdict(list)
     for j in jobs:
