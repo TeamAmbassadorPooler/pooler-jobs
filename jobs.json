@@ -1,34 +1,34 @@
 {
   "company": "Ambassador Personnel",
-  "updated": "2026-10-27T14:58:02.557Z",
-  "applyUrl": "https://www.teamambassador.com/",
+  "updated": "2026-10-27T15:13:29.163Z",
+  "applyUrl": "https://www.teamambassador.com/Jobs.aspx?q=all",
   "jobs": [
     {
-      "code": "5QHL",
+      "code": "5SFT",
       "branch": "Pooler",
-      "title": "Route Sales Representative",
+      "title": "Project Engineer III",
       "city": "Savannah",
       "state": "GA",
-      "zip": "31405",
+      "zip": "31418",
       "street": "",
-      "pay": "$20.87",
-      "type": "Temporary",
+      "pay": "$60.00",
+      "type": "Temp-to-hire",
       "shift": "Shift and hours shared at interview",
-      "about": "Ambassador Personnel is hiring a Route Sales Representative in Savannah, GA. Pay is $20.87/hr, paid weekly.",
-      "duties": "Deliver product to stores on an assigned route\nStock shelves and build displays\nTake orders and work with store managers\nKeep route records accurate",
-      "reqs": "Valid driver's license and clean driving record\nAble to lift up to 50 lbs\nCustomer service skills\nAble to work early mornings",
+      "about": "Ambassador Personnel is hiring a Project Engineer III in Savannah, GA. Pay is $60.00/hr, paid weekly.",
+      "duties": "Plan and support engineering projects from start to finish\nReview drawings, specs and processes\nWork with operations, vendors and contractors\nTrack schedules, budgets and documentation",
+      "reqs": "Engineering degree or related experience preferred\nStrong computer and communication skills\nAble to manage several projects at once",
       "perks": "Weekly pay",
       "exp": "",
       "edu": "high school",
-      "open": "2",
+      "open": 1,
       "post": "",
-      "first": 1793113082557,
+      "first": 1793114009163,
       "branchPhone": "(912) 330-7210",
       "payRange": [
-        20.87
+        60
       ],
-      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5QHL.html",
-      "applyUrl": "https://www.teamambassador.com/",
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SFT.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx?q=all",
       "datePosted": "2026-10-27"
     },
     {
@@ -48,43 +48,43 @@
       "perks": "Weekly pay",
       "exp": "0",
       "edu": "high school",
-      "open": "1",
+      "open": 1,
       "post": "",
-      "first": 1793113082557,
+      "first": 1793114009163,
       "branchPhone": "(912) 330-7210",
       "payRange": [
         14.02
       ],
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/4XBW.html",
-      "applyUrl": "https://www.teamambassador.com/",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx?q=all",
       "datePosted": "2026-10-27"
     },
     {
-      "code": "5SFT",
+      "code": "5QHL",
       "branch": "Pooler",
-      "title": "Project Engineer III",
+      "title": "Route Sales Representative",
       "city": "Savannah",
       "state": "GA",
-      "zip": "31418",
+      "zip": "31405",
       "street": "",
-      "pay": "$60.00",
-      "type": "Temp-to-hire",
+      "pay": "$20.87",
+      "type": "Temporary",
       "shift": "Shift and hours shared at interview",
-      "about": "Ambassador Personnel is hiring a Project Engineer III in Savannah, GA. Pay is $60.00/hr, paid weekly.",
-      "duties": "Plan and support engineering projects from start to finish\nReview drawings, specs and processes\nWork with operations, vendors and contractors\nTrack schedules, budgets and documentation",
-      "reqs": "Engineering degree or related experience preferred\nStrong computer and communication skills\nAble to manage several projects at once",
+      "about": "Ambassador Personnel is hiring a Route Sales Representative in Savannah, GA. Pay is $20.87/hr, paid weekly.",
+      "duties": "Deliver product to stores on an assigned route\nStock shelves and build displays\nTake orders and work with store managers\nKeep route records accurate",
+      "reqs": "Valid driver's license and clean driving record\nAble to lift up to 50 lbs\nCustomer service skills\nAble to work early mornings",
       "perks": "Weekly pay",
       "exp": "",
       "edu": "high school",
-      "open": "1",
+      "open": 2,
       "post": "",
-      "first": 1793113082557,
+      "first": 1793114009163,
       "branchPhone": "(912) 330-7210",
       "payRange": [
-        60
+        20.87
       ],
-      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SFT.html",
-      "applyUrl": "https://www.teamambassador.com/",
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5QHL.html",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx?q=all",
       "datePosted": "2026-10-27"
     },
     {
@@ -104,15 +104,15 @@
       "perks": "Weekly pay",
       "exp": "",
       "edu": "high school",
-      "open": "2",
+      "open": 2,
       "post": "",
-      "first": 1793113082557,
+      "first": 1793114009163,
       "branchPhone": "(912) 330-7210",
       "payRange": [
         23
       ],
       "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SDL.html",
-      "applyUrl": "https://www.teamambassador.com/",
+      "applyUrl": "https://www.teamambassador.com/Jobs.aspx?q=all",
       "datePosted": "2026-10-27"
     }
   ]
