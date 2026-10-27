@@ -1,43 +1,119 @@
 {
   "company": "Ambassador Personnel",
-  "updated": "2026-10-26T17:21:08.669Z",
-  "applyUrl": "https://www.teamambassador.com/CreateAccount.aspx",
+  "updated": "2026-10-27T14:58:02.557Z",
+  "applyUrl": "https://www.teamambassador.com/",
   "jobs": [
     {
-      "code": "5SZ0",
+      "code": "5QHL",
       "branch": "Pooler",
-      "branchPhone": "(912) 330-7210",
-      "title": "Cook",
+      "title": "Route Sales Representative",
       "city": "Savannah",
       "state": "GA",
-      "zip": "31404",
-      "pay": [
-        19
-      ],
-      "shift": "Sun-Thurs and Tues-Sat 1pm-9pm",
+      "zip": "31405",
+      "street": "",
+      "pay": "$20.87",
       "type": "Temporary",
-      "openings": 4,
-      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SZ0.html",
-      "applyUrl": "https://www.teamambassador.com/CreateAccount.aspx",
-      "datePosted": "2026-10-26"
+      "shift": "Shift and hours shared at interview",
+      "about": "Ambassador Personnel is hiring a Route Sales Representative in Savannah, GA. Pay is $20.87/hr, paid weekly.",
+      "duties": "Deliver product to stores on an assigned route\nStock shelves and build displays\nTake orders and work with store managers\nKeep route records accurate",
+      "reqs": "Valid driver's license and clean driving record\nAble to lift up to 50 lbs\nCustomer service skills\nAble to work early mornings",
+      "perks": "Weekly pay",
+      "exp": "",
+      "edu": "high school",
+      "open": "2",
+      "post": "",
+      "first": 1793113082557,
+      "branchPhone": "(912) 330-7210",
+      "payRange": [
+        20.87
+      ],
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5QHL.html",
+      "applyUrl": "https://www.teamambassador.com/",
+      "datePosted": "2026-10-27"
     },
     {
-      "code": "5SZ0",
+      "code": "4XBW",
       "branch": "Pooler",
+      "title": "Retail Sales Clerk",
+      "city": "Pooler",
+      "state": "GA",
+      "zip": "31322",
+      "street": "",
+      "pay": "$14.02",
+      "type": "Temporary",
+      "shift": "Shift and hours shared at interview",
+      "about": "Ambassador Personnel is hiring a Retail Sales Clerk in Pooler, GA. Pay is $14.02/hr, paid weekly.",
+      "duties": "Help customers and run the register\nStock shelves and rotate product\nKeep the store clean and organized\nCount cash and close out",
+      "reqs": "Customer service skills\nBasic math and cash handling\nAble to lift up to 35 lbs",
+      "perks": "Weekly pay",
+      "exp": "0",
+      "edu": "high school",
+      "open": "1",
+      "post": "",
+      "first": 1793113082557,
       "branchPhone": "(912) 330-7210",
-      "title": "Cook",
+      "payRange": [
+        14.02
+      ],
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/4XBW.html",
+      "applyUrl": "https://www.teamambassador.com/",
+      "datePosted": "2026-10-27"
+    },
+    {
+      "code": "5SFT",
+      "branch": "Pooler",
+      "title": "Project Engineer III",
       "city": "Savannah",
       "state": "GA",
-      "zip": "31404",
-      "pay": [
-        19
+      "zip": "31418",
+      "street": "",
+      "pay": "$60.00",
+      "type": "Temp-to-hire",
+      "shift": "Shift and hours shared at interview",
+      "about": "Ambassador Personnel is hiring a Project Engineer III in Savannah, GA. Pay is $60.00/hr, paid weekly.",
+      "duties": "Plan and support engineering projects from start to finish\nReview drawings, specs and processes\nWork with operations, vendors and contractors\nTrack schedules, budgets and documentation",
+      "reqs": "Engineering degree or related experience preferred\nStrong computer and communication skills\nAble to manage several projects at once",
+      "perks": "Weekly pay",
+      "exp": "",
+      "edu": "high school",
+      "open": "1",
+      "post": "",
+      "first": 1793113082557,
+      "branchPhone": "(912) 330-7210",
+      "payRange": [
+        60
       ],
-      "shift": "Sun-Thurs and Tues-Sat 1pm-9pm",
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SFT.html",
+      "applyUrl": "https://www.teamambassador.com/",
+      "datePosted": "2026-10-27"
+    },
+    {
+      "code": "5SDL",
+      "branch": "Pooler",
+      "title": "Storeroom Assistant",
+      "city": "North Charleston",
+      "state": "SC",
+      "zip": "29405",
+      "street": "",
+      "pay": "$23.00",
       "type": "Temporary",
-      "openings": 4,
-      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SZ0.html",
-      "applyUrl": "https://www.teamambassador.com/CreateAccount.aspx",
-      "datePosted": "2026-10-26"
+      "shift": "Shift and hours shared at interview",
+      "about": "Ambassador Personnel is hiring a Storeroom Assistant in North Charleston, SC. Pay is $23.00/hr, paid weekly.",
+      "duties": "Receive, stock, pick and ship product\nCount inventory and keep records accurate\nCut, label and stage material for orders\nKeep the warehouse clean and organized",
+      "reqs": "Able to lift up to 50 lbs and stand for a full shift\nBasic computer or scanner skills\nWarehouse experience a plus",
+      "perks": "Weekly pay",
+      "exp": "",
+      "edu": "high school",
+      "open": "2",
+      "post": "",
+      "first": 1793113082557,
+      "branchPhone": "(912) 330-7210",
+      "payRange": [
+        23
+      ],
+      "url": "https://teamambassadorpooler.github.io/pooler-jobs/jobs/5SDL.html",
+      "applyUrl": "https://www.teamambassador.com/",
+      "datePosted": "2026-10-27"
     }
   ]
 }

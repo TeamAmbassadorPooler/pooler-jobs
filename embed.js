@@ -11,7 +11,7 @@
     var jobs = d.jobs.filter(function (j) { return (!st || j.state === st) && (!ci || String(j.city).toLowerCase() === ci); });
     if (lim) jobs = jobs.slice(0, lim);
     box.innerHTML = jobs.length ? jobs.map(function (j) {
-      var pay = j.pay && j.pay.length ? ' · $' + j.pay.map(function (x) { return x.toFixed(2); }).join('–$') + '/hr' : '';
+      var pay = j.payRange && j.payRange.length ? ' · $' + j.payRange.map(function (x) { return x.toFixed(2); }).join('–$') + '/hr' : '';
       return '<div style="border:1px solid #e1e5ec;border-radius:8px;padding:10px 12px;margin:8px 0;font-family:inherit"><a href="' + e(j.url) + '" style="font-weight:600;text-decoration:none">' + e(j.title) + '</a><div style="font-size:13px;opacity:.75">' + e(j.city + ', ' + j.state) + e(pay) + (j.shift ? ' · ' + e(j.shift) : '') + '</div></div>';
     }).join('') + '<a href="' + e(d.applyUrl) + '" style="display:inline-block;margin-top:6px">Apply online →</a>' : '<p>No open jobs right now.</p>';
   }).catch(function () { box.innerHTML = '<a href="' + e(root) + '">See open jobs</a>'; });
